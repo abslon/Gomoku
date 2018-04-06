@@ -23,6 +23,8 @@ public:
     float value;
     Turn turn;
     Stone gameBoard[19][19];
+    vector <pair<int, int>> myStone;
+    vector <pair<int, int>> aiStone;
     State *parent;
     vector<State*> child;
 
